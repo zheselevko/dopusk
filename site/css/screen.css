@@ -34,12 +34,6 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 @font-face { font-family: KnulBold; src: url("fonts/Knul-Bold.eot"); src: url("fonts/Knul-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Knul-Bold.woff2") format("woff2"), url("fonts/Knul-Bold.woff") format("woff"), url("fonts/Knul-Bold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 @font-face { font-family: Knul; src: url("fonts/Knul.eot"); src: url("fonts/Knul.eot?#iefix") format("embedded-opentype"), url("fonts/Knul.woff2") format("woff2"), url("fonts/Knul.woff") format("woff"), url("fonts/Knul.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 @font-face { font-family: ArialMT; src: url("fonts/ArialMT.eot"); src: url("fonts/ArialMT.eot?#iefix") format("embedded-opentype"), url("fonts/ArialMT.woff2") format("woff2"), url("fonts/ArialMT.woff") format("woff"), url("fonts/ArialMT.ttf") format("truetype"); font-weight: normal; font-style: normal; }
-.icon-logo { width: 198px; height: 62px; background-image: url("../img/icons.png"); background-position: 0px 0px; }
-
-.icon-phone { width: 26px; height: 26px; background-image: url("../img/icons.png"); background-position: -28px -66px; }
-
-.icon-quality { width: 24px; height: 32px; background-image: url("../img/icons.png"); background-position: 0px -66px; }
-
 @font-face { font-family: "svgfont"; src: url("fonts/svgfont.eot"); src: url("fonts/svgfont.eot?#iefix") format("eot"), url("fonts/svgfont.woff") format("woff"), url("fonts/svgfont.woff2") format("woff2"), url("fonts/svgfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 .icon, [class^="icon-"], [class*=" icon-"] { font-family: "svgfont"; font-style: normal; font-weight: normal; text-rendering: auto; speak: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
