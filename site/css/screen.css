@@ -21,6 +21,24 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
 body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 
+.container { width: 960px; margin: 0 auto; box-sizing: border-box; *zoom: 1; }
+.container:after { content: " "; display: table; clear: both; }
+
+.left { float: left; }
+
+.right { float: right; }
+
+@font-face { font-family: ExtraBold; src: url("fonts/Knul-ExtraBold.eot"); src: url("fonts/Knul-ExtraBold.eot?#iefix") format("embedded-opentype"), url("fonts/Knul-ExtraBold.woff2") format("woff2"), url("fonts/Knul-ExtraBold.woff") format("woff"), url("fonts/Knul-ExtraBold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: ArialNarrowBold; src: url("fonts/ArialNarrow-Bold.eot"); src: url("fonts/ArialNarrow-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/ArialNarrow-Bold.woff2") format("woff2"), url("fonts/ArialNarrow-Bold.woff") format("woff"), url("fonts/ArialNarrow-Bold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: KnulBold; src: url("fonts/Knul-Bold.eot"); src: url("fonts/Knul-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Knul-Bold.woff2") format("woff2"), url("fonts/Knul-Bold.woff") format("woff"), url("fonts/Knul-Bold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: Knul; src: url("fonts/Knul.eot"); src: url("fonts/Knul.eot?#iefix") format("embedded-opentype"), url("fonts/Knul.woff2") format("woff2"), url("fonts/Knul.woff") format("woff"), url("fonts/Knul.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: ArialMT; src: url("fonts/ArialMT.eot"); src: url("fonts/ArialMT.eot?#iefix") format("embedded-opentype"), url("fonts/ArialMT.woff2") format("woff2"), url("fonts/ArialMT.woff") format("woff"), url("fonts/ArialMT.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+.icon-logo { width: 198px; height: 62px; background-image: url("../img/icons.png"); background-position: 0px 0px; }
+
+.icon-phone { width: 26px; height: 26px; background-image: url("../img/icons.png"); background-position: -28px -66px; }
+
+.icon-quality { width: 24px; height: 32px; background-image: url("../img/icons.png"); background-position: 0px -66px; }
+
 @font-face { font-family: "svgfont"; src: url("fonts/svgfont.eot"); src: url("fonts/svgfont.eot?#iefix") format("eot"), url("fonts/svgfont.woff") format("woff"), url("fonts/svgfont.woff2") format("woff2"), url("fonts/svgfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 .icon, [class^="icon-"], [class*=" icon-"] { font-family: "svgfont"; font-style: normal; font-weight: normal; text-rendering: auto; speak: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
@@ -34,11 +52,36 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .l:after { content: " "; display: table; clear: both; }
 .l .l-col1 { float: left; width: 20%; }
 .l .l-col2 { float: right; width: 70%; }
+
+.out { width: 100%; }
+.out .header { width: 100%; background: url("../img/header__bg.png") center 0 no-repeat; height: 796px; overflow: hidden; }
+.out .header .container { padding: 33px 0 0 0; }
+.out .header .container .header__top { width: 100%; height: 63px; margin-bottom: 35px; }
+.out .header .container .header__top .logo { float: left; }
+.out .header .container .header__top .callback { position: relative; padding-right: 40px; }
+.out .header .container .header__top .callback .content { text-align: right; line-height: 1; }
+.out .header .container .header__top .callback .content .phone { color: #1a1a1a; font-family: "ExtraBold", sans-serif; font-size: 19px; font-weight: 700; text-transform: uppercase; margin-bottom: 5px; }
+.out .header .container .header__top .callback .content .call a { color: #204257; font-family: "ArialNarrowBold", sans-serif; font-size: 15px; font-weight: 700; text-decoration: underline; }
+.out .header .container .header__top .callback [class^="icon-"] { position: absolute; right: 0; top: 50%; margin-top: -13px; }
+.out .header .container .info { width: 100%; margin-bottom: 45px; box-sizing: border-box; *zoom: 1; }
+.out .header .container .info:after { content: " "; display: table; clear: both; }
+.out .header .container .info .h1 { text-align: center; font-family: "KnulBold", sans-serif; font-size: 46px; font-weight: 700; line-height: 50px; color: #1a1a1a; }
+.out .header .container .info .h1 span { color: #3e8637; }
+.out .header .container .info .h2 { text-align: center; color: #1a1a1a; font-family: "Knul", sans-serif; font-size: 22px; font-weight: 400; }
+.out .header .container .content { width: 100%; }
+.out .header .container .content .list { width: 275px; }
+.out .header .container .content .list .item { float: left; width: 100%; margin-bottom: 40px; position: relative; }
+.out .header .container .content .list .item:last-child { margin-bottom: 0; }
+.out .header .container .content .list .item [class^="icon-"] { position: absolute; left: 0; top: 0; }
+.out .header .container .content .list .item .cont { padding-left: 35px; }
+.out .header .container .content .list .item .cont .name { color: #204257; font-family: "ArialMT", sans-serif; font-size: 22px; font-weight: 400; }
+.out .header .container .content .list .item .cont .text { color: #181818; font-family: "ArialMT", sans-serif; font-size: 15px; font-weight: 400; }
+.out .header .container .content .list .item .cont .text span { font-weight: 700; }
+.out .header .container .content .form { float: left; margin-left: 145px; margin-top: 76px; width: 324px; height: 412px; background-color: white; border: 1px solid #e2ebf0; border-radius: 4px; box-shadow: 11px 19.1px 10px rgba(0, 0, 0, 0.15); }
+.out .header .container .content .form .form__name { width: 100%; height: 105px; padding: 30px 0px; background: url("../img/form__name.png") 0 0 no-repeat; color: white; font-family: "ArialMT", sans-serif; font-size: 15px; font-weight: 400; text-align: center; line-height: 20px; }
+.out .header .container .content .form .form__name span { font-weight: 700; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
-@media only screen and (max-width: 1024px){
- div{ display: block; }
- p{ background: red; } }
 
 
 
