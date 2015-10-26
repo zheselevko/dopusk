@@ -1,0 +1,1 @@
+{"version":3,"sources":["local.scss"],"names":[],"mappings":"AAAA,QACE,YAAW,CACX,YAAW,EAAA","file":"local.css","sourcesContent":[".test{\r\n  width: 100%;\r\n  height: 1px;\r\n}"],"sourceRoot":"/source/"}

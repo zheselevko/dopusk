@@ -45,7 +45,7 @@ gulp.task('sass', function() {
         mqpacker()
     ];
 
-    return sass('src/sass/*.sass', {
+    return sass('src/sass/*.scss', {
         sourcemap: true,
         style: 'compact'
     })
@@ -182,7 +182,7 @@ gulp.task('browser-sync', function() {
             // index: 'index.html'
         },
         files: [dest.html + '/*.html', dest.css + '/*.css', dest.js + '/*.js'],
-        port: 8080,
+        port: 8081,
         notify: false,
         ghostMode: false,
         online: false,
