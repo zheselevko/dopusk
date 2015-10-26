@@ -56,5 +56,3 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Error: Undefined mixin 'font'.\A         on line 1 of src/sass/fonts.sass, in `font'\A         from line 1 of src/sass/fonts.sass\A \A 1: +font(ExtraBold, Knul-ExtraBold)\A 2: =ExtraBold\A 3: 	font-family: \"ExtraBold\", sans-serif\A 4: +font(ArialNarrowBold, ArialNarrow-Bold)\A 5: =ArialNarrowBold\A 6: 	font-family: \"ArialNarrowBold\", sans-serif"; }
-
-/*# sourceMappingURL=fonts.css.map */

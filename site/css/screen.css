@@ -86,6 +86,10 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .out .header .container .content .form .box .col label { height: 14px; color: #4d4d4d; font-family: "ArialNarrow", sans-serif; font-size: 16px; margin-bottom: 5px; }
 .out .header .container .content .form .box .button input { width: 271px; height: 62px; background: url("../img/button.png") 0 0 no-repeat; text-shadow: -0.4px 0.9px 0 rgba(0, 0, 0, 0.38); color: white; font-family: Arial; font-size: 17px; font-weight: 700; }
 .out .header .container .content .form .box .button input:hover { background: url("../img/button_h.png") 0 0 no-repeat; }
+
+.consultation { width: 100%; box-sizing: border-box; *zoom: 1; height: 896px; background: url("../img/cons_bg.png") 0 0 no-repeat; }
+.consultation:after { content: " "; display: table; clear: both; }
+.consultation .container { padding: 130px 0 0 0; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
 
