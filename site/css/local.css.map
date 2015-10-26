@@ -1,0 +1,1 @@
+{"version":3,"sources":["local.scss"],"names":[],"mappings":"AAAA,QACE,YAAW,CACX,YAAW,EAAA;;AAEb,UACE,0CAAyC,EAAA","file":"local.css","sourcesContent":[".test{\r\n  width: 100%;\r\n  height: 1px;\r\n}\r\n.test p{\r\n  font: 23px 'trebuchet ms', verdana, arial;\r\n}"],"sourceRoot":"/source/"}
