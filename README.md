@@ -1,2 +1,2 @@
 # dopusk
-lending page for activate 
+lending page for activate devolop
